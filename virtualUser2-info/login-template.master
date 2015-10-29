@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="登录系统模板.master.cs" Inherits="登录系统模板" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 77%;
+            height: 613px;
+            background-image: url('pic/模板背景.jpg');
+        }
+        .style2
+        {
+            height: 214px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    </div>
+    <table align="center" cellpadding="0" cellspacing="3" class="style1">
+        <tr>
+            <td align="center" >
+                <font size=7 color=green>公司内部登录系统</font>
+                </td>
+        </tr>
+        <tr>
+            <td>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <p style="height: 151px; width: 353px">
+                <br />
+            </p>
+        
+        </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+    </table>
+    </form>
+    </body>
+</html>

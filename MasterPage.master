@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#"  MasterPageFile="~/母板1.master" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage"  %>
+
+
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder5" Runat="Server">
+<div>
+        <table style="width: 614px" border="1">
+            
+            <tr>
+                <td colspan="2" align="left">
+                    <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" 
+                        Font-Size="Medium" PathSeparator=" : ">
+                        <PathSeparatorStyle Font-Bold="True" ForeColor="#1C5E55" />
+                        <CurrentNodeStyle ForeColor="#333333" />
+                        <NodeStyle Font-Bold="True" ForeColor="#666666" />
+                        <PathSeparatorTemplate>
+                            |
+                        </PathSeparatorTemplate>
+                        <RootNodeStyle Font-Bold="True" ForeColor="#1C5E55" />
+                    </asp:SiteMapPath>
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 184px" align="left">
+                    <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource2" 
+                        BorderColor="Black" BorderWidth="1px" Width="256px" BackColor="White" 
+                        BorderStyle="Double" ImageSet="BulletedList4" ShowExpandCollapse="False">
+                        <HoverNodeStyle Font-Underline="True" ForeColor="#5555DD" />
+                        <NodeStyle BackColor="White" BorderColor="White" Font-Names="Tahoma" 
+                            Font-Size="10pt" ForeColor="Black" HorizontalPadding="5px" NodeSpacing="0px" 
+                            VerticalPadding="0px" />
+                        <ParentNodeStyle Font-Bold="False" />
+                        <SelectedNodeStyle Font-Underline="True" ForeColor="#003399" 
+                            HorizontalPadding="0px" VerticalPadding="0px" />
+                    </asp:TreeView>
+                </td>
+                <td style="background-image: url(image/White1.jpg); width: 258px;">
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+                </td>
+            </tr>
+        </table>
+        <asp:SiteMapDataSource ID="SiteMapDataSource2" runat="server" />
+        &nbsp;<br />
+        <br />
+    </div>
+</asp:Content>

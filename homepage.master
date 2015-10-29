@@ -1,0 +1,309 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="主页.master.cs" Inherits="主页" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style3
+        {
+            height: 124px;
+        }
+.end03 {
+	    border-right: 1px solid #FFFFFF;
+            font-size: 13px;
+	        color: #ffffff;
+	        padding-right: 10px;
+	        position: relative;
+        }
+.end05 {
+	font-size: 13px;
+	color: #ffffff;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+        .style5
+        {
+            text-align: center;
+        }
+        .style9
+        {
+            height: 666px;
+        }
+        .style10
+        {
+            height: 88px;
+            text-align: center;
+            position: static;
+        }
+        .style11
+        {
+            border-right: 1px solid #FFFFFF;
+            font-size: 13px;
+            color: #ffffff;
+            padding-right: 10px;
+            position: relative;
+            bottom: 1px;
+        }
+        .style12
+        {
+            height: 666px;
+            width: 157px;
+            text-align: center;
+        }
+        a:link {
+	text-decoration: none;
+}
+.head01 {
+	font-size: 12px;
+	color: #0075c6;
+	padding-left: 10px;
+	font-weight: bold;
+}
+.head02 {
+	font-size: 12px;
+	color: #b3b3b3;
+	padding-right: 10px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #b3b3b3;
+}
+.head03 {
+	font-size: 12px;
+	color: #b3b3b3;
+}
+        .style16
+        {
+            height: 51px;
+            text-align: right;
+        }
+        .style20
+        {
+            height: 187px;
+            width: 339px;
+        }
+        .style23
+        {
+            width: 339px;
+        }
+        .style25
+        {
+            height: 219px;
+            width: 339px;
+        }
+        .style31
+        {
+            height: 174px;
+            width: 339px;
+        }
+        .style33
+        {
+            height: 217px;
+            width: 339px;
+        }
+        .style36
+        {
+            height: 20px;
+            text-align: right;
+        }
+        .style38
+        {
+            width: 69px;
+            height: 55px;
+        }
+        .style39
+        {
+            width: 63px;
+            height: 53px;
+        }
+        .style40
+        {
+            width: 427px;
+            height: 204px;
+        }
+        .sy07 {
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFF00;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.sy15 {
+	font-size: 14px;
+	color: #1291DD;
+	padding-left: 10px;
+	font-weight: bold;
+}
+        .style43
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+        }
+        .style44
+        {
+            height: 20px;
+        }
+        .style45
+        {
+            width: 100%;
+        }
+        .style46
+        {
+            width: 308px;
+        }
+        .style41
+        {
+            width: 1133px;
+            height: 193px;
+            margin-left: 0px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+       
+        
+            <table bgcolor="#0099FF" style="width:100%;">
+                <tr>
+                    <td bgcolor="White" class="style16" colspan="5" valign="bottom">
+                        <table class="style45">
+                            <tr>
+                                <td align="left" class="style46" height="204" width="432">
+                        <img alt="" class="style40" src="图片/tubiao.jpg" align="middle" /></td>
+                                <td align="center">
+                                    <img alt="" 
+                            class="style41" src="图片/1.jpg" /></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="White" class="style36" colspan="5" valign="bottom">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="White" colspan="5" class="style44">
+
+
+
+                    <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" 
+                            Orientation="Horizontal" StaticDisplayLevels="2" 
+                            StaticEnableDefaultPopOutImage="False" BackColor="#B5C7DE" Font-Size="X-Large" 
+                            >
+                            <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
+                            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                            <DynamicMenuStyle BackColor="#B5C7DE" />
+                            <DynamicSelectedStyle BackColor="#507CD1" />
+                            <StaticHoverStyle BackColor="#284E98" ForeColor="White" />
+                            <StaticSelectedStyle BackColor="#507CD1" />
+                        </asp:Menu>
+
+
+                        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+
+
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="style12" bgcolor="#1D9CE9" rowspan="5" width="20%">
+                        &nbsp; &nbsp;</td>
+                    <td class="style23" bgcolor="#0685D2" rowspan="3">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder5" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td class="style23" bgcolor="#0685D2" rowspan="2">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder8" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td class="style25">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder11" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td class="style9" bgcolor="#1D9CE9" rowspan="5" width="15%">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="style23" bgcolor="#1D9CE9" rowspan="3">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder12" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="style31" bgcolor="#0685D2">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder9" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="style33" bgcolor="#0685D2">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder6" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td class="style23" bgcolor="#0685D2" rowspan="2">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder10" runat="server">
+                            <table align="center" bgcolor="#007fcc" border="0" cellpadding="0" 
+                                cellspacing="0" width="100%">
+                                <tr>
+                                    <td bgcolor="#eaf7ff" class="style43" height="100%" width="100%">
+                                        WHERE COME TO BEHOUSE&#39;！</td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#eaf7ff" class="style43" height="30">
+                                        和海绵宝宝一起看房产</td>
+                                </tr>
+                                <tr>
+                                    <td align="center" bgcolor="#eaf7ff">
+                                        <a href="http://www.sanyiguoji.net/sponge.asp">
+                                        <img border="0" height="198" src="http://www.sanyiguoji.net/images/24.jpg" 
+                                            width="260" /></a></td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#eaf7ff">
+                                        <img height="50" src="http://www.sanyiguoji.net/images/08.jpg" width="280" /></td>
+                                </tr>
+                            </table>
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="style20" bgcolor="#0685D2">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder7" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td class="style20" bgcolor="#1D9CE9">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder13" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="style10" colspan="5" style="background-color: #CCFFFF">
+                        <font class="style11" color="White" style="color: #800000">Enrollment 咨询热线: 010－6448 7637 | Customer Support 客户服务: 010-6448 7295</font></td>
+                </tr>
+                <tr>
+                    <td bgcolor="#CCFFFF" class="style3" colspan="5">
+                        <div>
+                            <p class="style5" style="color: #800000">
+                                Bananana-中国房地产领军品牌 Broaden Your Horizons let’s Start From Heres let’s Start From Here<br />Copyright 2012 - ∞ All rights reserved. 京ICP备81818181号</p>
+                            <p class="style5" style="color: #800000">
+                                友情链接：<img alt="" class="style38" src="图片/人人.jpg" />人人网 
+                                 
+                                <img alt="" class="style39" src="图片/新浪.jpg" />新浪网 
+                                 
+                                <img alt="" class="style40" src="图片/百度.jpg" />百度网</p>
+                            <p class="style5">
+                                &nbsp;</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+       
+    </div>
+    </form>
+</body>
+</html>

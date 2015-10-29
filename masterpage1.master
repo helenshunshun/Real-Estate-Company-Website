@@ -1,0 +1,197 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true"  %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script runat="server">
+
+    protected void Menu1_MenuItemClick(object sender, MenuEventArgs e)
+    {
+
+    }
+</script>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style3
+        {
+            height: 124px;
+        }
+.end03 {
+	    border-right: 1px solid #FFFFFF;
+            font-size: 13px;
+	        color: #ffffff;
+	        padding-right: 10px;
+	        position: relative;
+        }
+.end05 {
+	font-size: 13px;
+	color: #ffffff;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+        .style5
+        {
+            text-align: center;
+        }
+        .style9
+        {
+            height: 666px;
+        }
+        .style10
+        {
+            height: 88px;
+            text-align: center;
+            position: static;
+        }
+        .style11
+        {
+            border-right: 1px solid #FFFFFF;
+            font-size: 13px;
+            color: #ffffff;
+            padding-right: 10px;
+            position: relative;
+            bottom: 1px;
+        }
+        a:link {
+	text-decoration: none;
+}
+.head01 {
+	font-size: 12px;
+	color: #0075c6;
+	padding-left: 10px;
+	font-weight: bold;
+}
+.head02 {
+	font-size: 12px;
+	color: #b3b3b3;
+	padding-right: 10px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #b3b3b3;
+}
+.head03 {
+	font-size: 12px;
+	color: #b3b3b3;
+}
+        .style16
+        {
+            height: 81px;
+            text-align: right;
+        }
+        .style23
+        {
+            width: 1017px;
+        }
+        .style37
+        {
+            width: 61px;
+            height: 52px;
+        }
+        .style38
+        {
+            width: 56px;
+            height: 49px;
+        }
+        .style39
+        {
+            width: 61px;
+            height: 48px;
+        }
+        .style42
+        {
+            width: 100%;
+        }
+        .style43
+        {
+            width: 433px;
+        }
+        .style40
+        {
+            width: 427px;
+            height: 204px;
+        }
+        .style41
+        {
+            width: 1133px;
+            height: 193px;
+            margin-left: 0px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+       
+        
+            <table bgcolor="#0099FF" style="width:100%;">
+                <tr>
+                    <td bgcolor="White" class="style16" colspan="3" valign="bottom">
+                        <table class="style42">
+                            <tr>
+                                <td class="style43">
+                        <img alt="" class="style40" src="图片/tubiao.jpg" align="middle" /></td>
+                                <td>
+                                    <img alt="" 
+                            class="style41" src="图片/1.jpg" /></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="White"  colspan="3" valign="bottom" align="left">
+                        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" 
+                            Orientation="Horizontal" StaticDisplayLevels="2" 
+                            StaticEnableDefaultPopOutImage="False" 
+                            onmenuitemclick="Menu1_MenuItemClick" StaticSubMenuIndent="10px" 
+                            Font-Size="X-Large" BackColor="#B5C7DE" DynamicHorizontalOffset="2" 
+                            Font-Names="Verdana" ForeColor="#284E98" 
+                            >
+                            <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
+                            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                            <DynamicMenuStyle BackColor="#B5C7DE" />
+                            <DynamicSelectedStyle BackColor="#507CD1" />
+                            <StaticHoverStyle BackColor="#284E98" ForeColor="White" />
+                            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                            <StaticSelectedStyle BackColor="#507CD1" />
+                        </asp:Menu>
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td class="style9" bgcolor="#1D9CE9" width="10%">
+                    </td>
+                    <td class="style23" bgcolor="#0685D2">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder5" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                    <td class="style9" bgcolor="#1D9CE9" width="10%">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="style10" colspan="3" style="background-color: #CCFFFF">
+                        <font class="style11" color="White" style="color: #800000">Enrollment 咨询热线: 010－6448 7637 | Customer Support 客户服务: 010-6448 7295</font></td>
+                </tr>
+                <tr>
+                    <td bgcolor="#CCFFFF" class="style3" colspan="3">
+                        <div>
+                            <p class="style5" style="color: #800000">
+                                Bananana-中国房地产领军品牌 Broaden Your Horizons let’s Start From Heres let’s Start From Here<br />Copyright 2012 - ∞ All rights reserved. 京ICP备81818181号</p>
+                            <p class="style5" style="color: #800000">
+                                友情链接：<img alt="" class="style37" src="图片/人人.jpg" />人人网 
+                                 
+                                <img alt="" class="style38" src="图片/新浪.jpg" />新浪网 
+                                 
+                                <img alt="" class="style39" src="图片/百度.jpg" />百度网</p>
+                            <p class="style5">
+                                &nbsp;</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+       
+    </div>
+                       <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+    </form>
+</body>
+</html>

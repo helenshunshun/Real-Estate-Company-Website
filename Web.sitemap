@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="http://localhost:3447/WebSite1/主页.aspx" title="主页|"  description="">
+		
+    
+		<siteMapNode url="~/公司介绍.aspx" title="公司简介| "  description="" >
+		
+		</siteMapNode>
+  
+		<siteMapNode url="~/部门/Default.aspx" title="部门简介| "  description="" >
+			<siteMapNode url="~/部门/yingxiao.aspx" title="营销部"  description="" />
+			<siteMapNode url="~/部门/shouhou.aspx" title="售后服务部"  description="" />
+			<siteMapNode url="~/部门/caiwu.aspx" title="财务部"  description="" />
+			<siteMapNode url="~/部门/renliziyuan.aspx" title="人力资源部"  description="" />
+			<siteMapNode url="~/部门/shichang.aspx" title="市场部"  description="" />
+			<siteMapNode url="~/部门/shengchan.aspx" title="生产部"  description="" />
+			<siteMapNode url="~/部门/caigou.aspx" title="采购部"  description="" />
+			<siteMapNode url="~/部门/yanfa.aspx" title="研发部"  description="" />
+			<siteMapNode url="~/部门/anquanjiancha.aspx" title="安全监察"  description="" />
+			<siteMapNode url="~/部门/zong.aspx" title="总经办"  description="" />
+		</siteMapNode>
+    
+		
+		<siteMapNode url="~/员工风采.aspx" title="员工风采| "  description="">
+        </siteMapNode>
+
+    
+		<siteMapNode url="" title="公司新闻| "  description="" >
+			<siteMapNode url="" title="公告"  description="" />
+			<siteMapNode url="" title="部门新闻"  description="" />
+      </siteMapNode>
+    
+    
+		<siteMapNode url="~/招聘.aspx" title="公司招聘| "  description="" >
+			<siteMapNode url="" title="校园招聘"  description="" />
+			<siteMapNode url="" title="社会招聘"  description="" />
+		</siteMapNode>
+		
+		<siteMapNode url="~/联系我们.aspx" title="联系我们| "  description="" >
+            
+        </siteMapNode>
+
+
+    
+    <siteMapNode url="" title="用户中心| "  description="" >
+      <siteMapNode url="~/User1/Default.aspx" title="员工"  description="" role="User1,Admin" />
+      <siteMapNode url="~/User2/系统登录.aspx" title="主管"  description="" role="User2,Admin" />
+    </siteMapNode>
+
+
+    <siteMapNode url="~/Admin/主页框架.htm" title=" 管理中心|"  description="" role="Admin" >
+        
+    </siteMapNode>
+    
+    
+	</siteMapNode>
+</siteMap>
